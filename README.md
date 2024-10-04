@@ -30,11 +30,24 @@ rainfall - rainfall in mm
 
 ## Software Requirements
 
-1. [GithubAccount](https://github.com)
+1. [Github Account](https://github.com)
 
 2. [VSCodeIDE](https://code.visualstudio.com)
 
 3. [Anaconda extension](https://www.anaconda.com)
+
+4. [HerokuAccount](https://heroku.com)
+
+Create a new environment 
+
+'''
+C:\Users\Admin\anaconda3\Scripts\activate base 
+'''
+
+conda create -p venv python==3.12.3 -y
+
+conda activate venv\
+
 
 ## EDA(Exploratory Data Analysis)
 1. #### Univariate analysis

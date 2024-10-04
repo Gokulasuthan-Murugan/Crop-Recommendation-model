@@ -40,14 +40,15 @@ rainfall - rainfall in mm
 
 Create a new environment 
 
-'''
+``` 
 C:\Users\Admin\anaconda3\Scripts\activate base 
-'''
-
+```
+```
 conda create -p venv python==3.12.3 -y
-
+```
+```
 conda activate venv\
-
+```
 
 ## EDA(Exploratory Data Analysis)
 1. #### Univariate analysis

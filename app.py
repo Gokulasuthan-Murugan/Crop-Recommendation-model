@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 
 
-pickle_model=open("soil_classification.pkl",'rb')
+pickle_model=open("model.pkl",'rb')
 classifier=pickle.load(pickle_model)
 
 def prediction(N,P,K,Temperature,Humidity,ph,Rainfall):
